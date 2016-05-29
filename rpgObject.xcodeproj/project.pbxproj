@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE7CCE4D1CF5F63100875BE0 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7CCE4C1CF5F63100875BE0 /* Character.swift */; };
+		CE7CCE4F1CF5F9B900875BE0 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7CCE4E1CF5F9B900875BE0 /* Player.swift */; };
+		CE7CCE511CF5FC2A00875BE0 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7CCE501CF5FC2A00875BE0 /* Enemy.swift */; };
+		CE7CCE531CF5FDCA00875BE0 /* Kimara.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7CCE521CF5FDCA00875BE0 /* Kimara.swift */; };
+		CE7CCE551CF5FF4500875BE0 /* DevilWizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7CCE541CF5FF4500875BE0 /* DevilWizard.swift */; };
 		CEC83DDA1CF4C18500503838 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC83DD91CF4C18500503838 /* AppDelegate.swift */; };
 		CEC83DDC1CF4C18500503838 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC83DDB1CF4C18500503838 /* ViewController.swift */; };
 		CEC83DDF1CF4C18500503838 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC83DDD1CF4C18500503838 /* Main.storyboard */; };
@@ -35,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE7CCE4C1CF5F63100875BE0 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		CE7CCE4E1CF5F9B900875BE0 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		CE7CCE501CF5FC2A00875BE0 /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		CE7CCE521CF5FDCA00875BE0 /* Kimara.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kimara.swift; sourceTree = "<group>"; };
+		CE7CCE541CF5FF4500875BE0 /* DevilWizard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevilWizard.swift; sourceTree = "<group>"; };
 		CEC83DD61CF4C18500503838 /* rpgObject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rpgObject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC83DD91CF4C18500503838 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEC83DDB1CF4C18500503838 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +116,11 @@
 				CEC83DE51CF4C18600503838 /* LaunchScreen.storyboard */,
 				CEC83DE81CF4C18600503838 /* Info.plist */,
 				CEC83DE01CF4C18500503838 /* rpgObject.xcdatamodeld */,
+				CE7CCE4E1CF5F9B900875BE0 /* Player.swift */,
+				CE7CCE4C1CF5F63100875BE0 /* Character.swift */,
+				CE7CCE501CF5FC2A00875BE0 /* Enemy.swift */,
+				CE7CCE521CF5FDCA00875BE0 /* Kimara.swift */,
+				CE7CCE541CF5FF4500875BE0 /* DevilWizard.swift */,
 			);
 			path = rpgObject;
 			sourceTree = "<group>";
@@ -261,7 +276,12 @@
 			files = (
 				CEC83DDC1CF4C18500503838 /* ViewController.swift in Sources */,
 				CEC83DDA1CF4C18500503838 /* AppDelegate.swift in Sources */,
+				CE7CCE551CF5FF4500875BE0 /* DevilWizard.swift in Sources */,
+				CE7CCE511CF5FC2A00875BE0 /* Enemy.swift in Sources */,
 				CEC83DE21CF4C18500503838 /* rpgObject.xcdatamodeld in Sources */,
+				CE7CCE4F1CF5F9B900875BE0 /* Player.swift in Sources */,
+				CE7CCE531CF5FDCA00875BE0 /* Kimara.swift in Sources */,
+				CE7CCE4D1CF5F63100875BE0 /* Character.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,6 +506,7 @@
 				CEC83E031CF4C18600503838 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEC83E041CF4C18600503838 /* Build configuration list for PBXNativeTarget "rpgObjectTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +515,7 @@
 				CEC83E061CF4C18600503838 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEC83E071CF4C18600503838 /* Build configuration list for PBXNativeTarget "rpgObjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +524,7 @@
 				CEC83E091CF4C18600503838 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
